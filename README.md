@@ -3,6 +3,8 @@ Hack Memphis 2014 Tweet-O-Meter
 
 My Hack Memphis Raspberry Pi Servo Meter Project.
 
+Please be aware that this code is a F'ing mess. It was written in a hurry, and partly with beer in hand.
+
 Clone this onto a Raspberry Pi (model B or B+).
 
 Run: 
