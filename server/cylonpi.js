@@ -36,4 +36,8 @@ CylonPi.prototype.setAngle = function(angle) {
     return this.myAngle;
 };
 
+CylonPi.prototype.getAngle = function() {
+    return this.servo.currentAngle();
+}
+
 module.exports = exports = new CylonPi();

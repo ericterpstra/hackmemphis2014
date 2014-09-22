@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.ngview {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.tweet {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Droid Serif", "Georgia", Cambria, Times New Roman, Times, serif;
+    color: white;
+    font-weight: 600;
+    opacity: .5;
+    z-index: 2;
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+}
+
+.left-area, .right-area {
+    display: table;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    z-index: 0;
+}
+
+.left-area {
+    border-top-left-radius: 100%;
+    background-color: indianred;
+}
+
+.right-area {
+    border-top-right-radius: 100%;
+    background-color: forestgreen;
+}
+
+.label {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    font-size: 50px;
+    font-family: Courier New, Courier, monospace;
+}
